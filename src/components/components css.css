@@ -1,0 +1,62 @@
+#home {
+  background-color: #eac57d;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 50px, 50px, 50px, 50px;
+}
+
+.navbar,
+.navbar-brand,
+.navbar-link {
+  background-color: #eac57d !important;
+  color: #523857 !important;
+  font-family: serif, "Times New Roman", Times;
+}
+
+.navbar-link {
+  font-size: large;
+}
+
+.navbar-brand {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#particles-container {
+  background-color: #eac57d; /* Replace with your desired background color */
+}
+
+div .intro {
+  padding: 200px 0;
+  font-family: serif;
+  font-weight: bold;
+  color: #523857;
+  text-align: center;
+}
+
+#about,
+#skill {
+  background-color: white;
+  margin-top: 40px;
+  color: #523857;
+  font-family: serif, "Times New Roman", Times;
+}
+
+#about h2,
+#skill h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #eac57d;
+  text-underline-position: below;
+}
+
+#about p {
+  text-align: justify;
+  padding: 10px 30px;
+}
+
+.progress-bar {
+  background-color: #523857;
+  text-align: justify;
+  font-size: medium;
+}

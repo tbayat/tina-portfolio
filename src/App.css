@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: aliceblue;
+  font-family: serif, "Times New Roman", Times;
+  z-index: 3;
 }
 
 .App-logo {
