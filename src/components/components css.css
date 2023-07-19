@@ -1,8 +1,16 @@
 #home {
-  background-color: #eac57d;
   min-width: 100vw;
   min-height: 100vh;
   margin: 50px, 50px, 50px, 50px;
+}
+
+.particles {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
 }
 
 .navbar,
@@ -22,10 +30,6 @@
   font-weight: bold;
 }
 
-#particles-container {
-  background-color: #eac57d; /* Replace with your desired background color */
-}
-
 div .intro {
   padding: 200px 0;
   font-family: serif;
@@ -40,6 +44,7 @@ div .intro {
   margin-top: 40px;
   color: #523857;
   font-family: serif, "Times New Roman", Times;
+  z-index: 100 !important;
 }
 
 #about h2,
