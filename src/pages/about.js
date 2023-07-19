@@ -47,14 +47,6 @@ const About = () => {
             </Col>
           </Row>
         </Container>
-        <Container id="skill" className="shadow-lg p-3 mb-5 bg-body rounded">
-          <Row>
-            <Col>
-              <h2>My Skills</h2>
-              <SkillsChart />
-            </Col>
-          </Row>
-        </Container>
       </div>
     </>
   );

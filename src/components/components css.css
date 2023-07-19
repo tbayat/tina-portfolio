@@ -39,7 +39,8 @@ div .intro {
 }
 
 #about,
-#skill {
+#skill,
+#education {
   background-color: white;
   margin-top: 40px;
   color: #523857;
@@ -48,7 +49,8 @@ div .intro {
 }
 
 #about h2,
-#skill h2 {
+#skill h2,
+#education h2 {
   text-align: center;
   text-decoration: underline;
   text-decoration-color: #eac57d;
@@ -61,7 +63,7 @@ div .intro {
 }
 
 .progress-bar {
-  background-color: #523857;
+  background-color: #eac57d;
   text-align: justify;
   font-size: medium;
 }

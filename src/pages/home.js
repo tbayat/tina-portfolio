@@ -4,7 +4,6 @@ import { loadFull } from "tsparticles";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/components css.css";
 import Navigation from "../components/navigation";
-import Intro from "../components/intro";
 
 const Home = () => {
   const particlesInit = async (main) => {
@@ -99,9 +98,7 @@ const Home = () => {
             },
             detectRetina: true,
           }}
-        >
-          <Intro />
-        </Particles>
+        />
       </div>
     </>
   );
