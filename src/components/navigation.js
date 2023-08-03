@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Navigation = () => {
   return (
-    <Navbar className="bg-body-tertiary sticky-top">
+    <Navbar expand="lg" className="bg-body-tertiary sticky-top">
       <Container>
         <Navbar.Brand href="#home">TINA BAYAT</Navbar.Brand>
         <Navbar.Toggle />
@@ -14,6 +14,8 @@ const Navigation = () => {
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#skill">Skills</Nav.Link>
             <Nav.Link href="#education">Education</Nav.Link>
+            <Nav.Link href="#certificate">Certificates</Nav.Link>
+            <Nav.Link href="#exprience">Exprience</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

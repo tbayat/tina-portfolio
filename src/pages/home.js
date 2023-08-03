@@ -4,6 +4,7 @@ import { loadFull } from "tsparticles";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/components css.css";
 import Navigation from "../components/navigation";
+import { MDBIcon } from "mdb-react-ui-kit";
 
 const Home = () => {
   const particlesInit = async (main) => {
@@ -24,13 +25,22 @@ const Home = () => {
         <div className="intro" style={{ zIndex: 2 }}>
           <h1>Tina Bayat</h1>
           <h2>Front-End Developer</h2>
+          <a href="" className="me-4 text-reset">
+            <MDBIcon size="3x" far icon="envelope" />
+          </a>
+          <a href="" className="me-4 text-reset">
+            <MDBIcon size="3x" fab icon="linkedin" />
+          </a>
+          <a href="" className="me-4 text-reset">
+            <MDBIcon size="3x" fab icon="github" />
+          </a>
         </div>
         <Particles
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
           options={{
-            background: { color: "#eac57d" },
+            background: { color: "#eba92a" },
             fpsLimit: 120,
             fullScreen: { zIndex: -1 },
             interactivity: {

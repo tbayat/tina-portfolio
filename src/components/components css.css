@@ -1,7 +1,7 @@
 #home {
   min-width: 100vw;
   min-height: 100vh;
-  margin: 50px, 50px, 50px, 50px;
+  margin: 0;
 }
 
 .particles {
@@ -16,8 +16,8 @@
 .navbar,
 .navbar-brand,
 .navbar-link {
-  background-color: #eac57d !important;
-  color: #523857 !important;
+  background-color: #eba92a !important;
+  color: #1c3948 !important;
   font-family: serif, "Times New Roman", Times;
 }
 
@@ -31,29 +31,34 @@
 }
 
 div .intro {
-  padding: 200px 0;
+  text-align: center;
+  padding-top: 280px;
   font-family: serif;
-  font-weight: bold;
-  color: #523857;
+  font-weight: bolder;
+  color: #1c3948;
   text-align: center;
 }
 
 #about,
 #skill,
-#education {
+#education,
+#certificate,
+#exprience {
   background-color: white;
   margin-top: 40px;
-  color: #523857;
+  color: #1c3948;
   font-family: serif, "Times New Roman", Times;
   z-index: 100 !important;
 }
 
 #about h2,
 #skill h2,
-#education h2 {
+#education h2,
+#certificate h2,
+#exprience h2 {
   text-align: center;
   text-decoration: underline;
-  text-decoration-color: #eac57d;
+  text-decoration-color: #eba92a;
   text-underline-position: below;
 }
 
@@ -63,7 +68,15 @@ div .intro {
 }
 
 .progress-bar {
-  background-color: #eac57d;
+  background-color: #eba92a !important;
   text-align: justify;
   font-size: medium;
+}
+
+a {
+  color: #1c3948 !important;
+}
+
+a:hover {
+  color: #b84d27 !important;
 }

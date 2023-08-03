@@ -17,7 +17,11 @@ const SkillsChart = () => {
         {skills.map((skill, index) => (
           <Col key={index} sm={6} md={12} lg={12} className="mb-4">
             <h5>{skill.name}</h5>
-            <ProgressBar now={skill.percentage} />
+            <ProgressBar
+              animated
+              now={skill.percentage}
+              style={{ height: "16px", borderRadius: "20px" }}
+            />
           </Col>
         ))}
       </Row>
