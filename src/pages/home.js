@@ -25,13 +25,25 @@ const Home = () => {
         <div className="intro" style={{ zIndex: 2 }}>
           <h1>Tina Bayat</h1>
           <h2>Front-End Developer</h2>
-          <a href="" className="me-4 text-reset">
+          <a
+            href="mailto:tinaa.bayat@gmail.com"
+            target="_blank"
+            className="me-4 text-reset"
+          >
             <MDBIcon size="3x" far icon="envelope" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a
+            href="https://www.linkedin.com/in/tina-bayat-27844b261/"
+            target="_blank"
+            className="me-4 text-reset"
+          >
             <MDBIcon size="3x" fab icon="linkedin" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a
+            href="https://github.com/tbayat"
+            target="_blank"
+            className="me-4 text-reset"
+          >
             <MDBIcon size="3x" fab icon="github" />
           </a>
         </div>

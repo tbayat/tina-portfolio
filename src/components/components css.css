@@ -73,6 +73,11 @@ div .intro {
   font-size: medium;
 }
 
+#certificate a,
+#exprience a {
+  border-bottom: 1px solid #1c3948;
+}
+
 a {
   color: #1c3948 !important;
 }

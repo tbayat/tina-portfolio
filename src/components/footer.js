@@ -15,7 +15,8 @@ const Footer = () => {
             color="#523857 "
             floating
             className="m-1"
-            href="#!"
+            href="mailto:tinaa.bayat@gmail.com"
+            target="_blank"
             role="button"
           >
             <MDBIcon far icon="envelope" />
@@ -26,7 +27,8 @@ const Footer = () => {
             color="#523857 "
             floating
             className="m-1"
-            href="#!"
+            href="https://www.linkedin.com/in/tina-bayat-27844b261/"
+            target="_blank"
             role="button"
           >
             <MDBIcon fab icon="linkedin-in" />
@@ -37,7 +39,8 @@ const Footer = () => {
             color="#523857 "
             floating
             className="m-1"
-            href="#!"
+            href="https://github.com/tbayat"
+            target="_blank"
             role="button"
           >
             <MDBIcon fab icon="github" />
@@ -49,8 +52,7 @@ const Footer = () => {
         className="text-center p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.1)", color: "#1c3948 " }}
       >
-        © 2020 Copyright:
-        <a href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2023 Copyright:Tina Bayat
       </div>
     </MDBFooter>
   );
