@@ -41,10 +41,14 @@ const Exprience = () => {
               <h5>GitHub Projects: </h5>
               <ul>
                 <li>
-                  <a href="#pastry">Pastry Website</a>
+                  <a href="https://github.com/tbayat/pastry-online-shop">
+                    Pastry Website
+                  </a>
                 </li>
                 <li>
-                  <a href="#portfolio">Tina Profile</a>
+                  <a href="https://github.com/tbayat/tina-portfolio">
+                    Tina's Portfolio
+                  </a>
                 </li>
                 <li>
                   <a href="https://github.com/tbayat/ArtStore">

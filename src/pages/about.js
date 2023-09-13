@@ -4,7 +4,6 @@ import "../components/components css.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import SkillsChart from "../components/skillchart";
 
 const About = () => {
   return (
@@ -19,30 +18,16 @@ const About = () => {
             <Col>
               <h2>My Story</h2>
               <p>
-                Passionate about delivering exceptional user experiences and
-                driving business growth, I have a diverse background in both
-                computer engineering and business management. With 6+ years of
-                experience working directly with clients as a business analyst,
-                I have honed my skills in aligning their needs with strategic
-                business objectives. This unique combination of technical
-                expertise and business acumen allows me to design and develop
-                impactful solutions that drive results. In addition to my
-                business analyst experience, I am confident in my technical
-                abilities. I am proficient in Python, JavaScript, JSX, HTML/CSS,
-                SQL and React and I have a solid understanding of version
-                control using Git. My technical skills, coupled with my
-                analytical mindset, enable me to effectively communicate with
-                development teams and stakeholders to ensure successful project
-                delivery. As an entry-level front-end developer, I am eager to
-                leverage my experience as a business analyst and continue to
-                grow professionally. I am driven by the opportunity to create
-                intuitive and engaging user interfaces that meet both user needs
-                and business objectives. With my strong problem-solving skills
-                and ability to collaborate effectively, I am confident in my
-                ability to contribute to your organization's success. Overall, I
-                bring a unique blend of business analyst experience and
-                technical expertise, making me a valuable asset in delivering
-                exceptional user experiences while driving business growth.
+                Results-oriented and adaptable professional with 7 years of
+                experience as a Business Analyst and Customer Advisor,
+                complemented by self-directed study in front-end development.
+                Enthusiastic for translating business requirements into
+                technical solutions, with my new knowledge of web development
+                technologies. Eager to transition into a role as a Junior Front
+                End Developer, driven by a passion for creating visually
+                appealing and user-friendly websites. Proven ability to learn
+                quickly and apply knowledge effectively, as demonstrated by
+                self-created websites showcasing newfound skills.
               </p>
             </Col>
           </Row>

@@ -38,3 +38,11 @@
     transform: rotate(360deg);
   }
 }
+
+#container1 {
+  overflow: hidden;
+}
+
+#container2 {
+  overflow: auto;
+}
